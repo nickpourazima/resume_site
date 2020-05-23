@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://nickpourazima.github.io"
+baseURL = "https://nickpourazima.github.io/"
 languageCode = "en"
 title = "Nick Pourazima's Website"
 theme = "hugo-devresume-theme"
@@ -26,7 +26,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         name = "Nick Pourazima"
         tagline = "Acoustic | Audio | Electrical Engineer"
-        avatar = "public/assets/images/avatar.png"
+        avatar = "avatar.png"
 
 
 
