@@ -3,7 +3,7 @@
 baseURL = "https://nickpourazima.github.io"
 languageCode = "en"
 title = "Nick Pourazima's Website"
-theme = "resume"
+theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 
@@ -26,7 +26,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         name = "Nick Pourazima"
         tagline = "Acoustic | Audio | Electrical Engineer"
-        avatar = "avatar.png"
+        avatar = "public/assets/images/avatar.png"
 
 
 
