@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/nickpourazima/nickpourazima.github.io.git
 	branch = master
+[submodule "themes/resume"]
+	path = themes/resume
+	url = https://github.com/cowboysmall-tools/hugo-devresume-theme.git
