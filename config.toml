@@ -3,7 +3,7 @@
 baseURL = "https://pourazima.com"
 languageCode = "en"
 title = "Nick Pourazima's Website"
-theme = "hugo-devresume-theme"
+theme = "resume"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 
