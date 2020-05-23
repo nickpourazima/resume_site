@@ -1,0 +1,349 @@
+# Page settings
+
+baseURL = "https://pourazima.com"
+languageCode = "en"
+title = "Nick Pourazima's Website"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Nick Pourazima"
+    description = "Nick Pourazima's Resume and Projects"
+
+
+    primaryColor = "#54B1B6"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Nick Pourazima"
+        tagline = "Acoustic | Audio | Electrical Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Alexandria, VA"
+
+        # [[params.contact.list]]
+        # icon = "fas fa-phone-square"
+        # url = "tel:#"
+        # text = "0123 4567 890"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "nick@pourazima.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.pourazima.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Coding"
+        [[params.skills.list.items]]
+        details = "Python/C/C++/Matlab"
+        [[params.skills.list]]
+        title = "Rapid Prototyping"
+        [[params.skills.list.items]]
+        details = "Solidworks/NX/Eagle/Altium"
+        [[params.skills.list.items]]
+        details = "Arduino/Adafruit/RPi/Particle/PureData"
+        [[params.skills.list.items]]
+        details = "Form Labs/Stratasys/Soldering"
+        [[params.skills.list]]
+        title = "Audio Design & Test"
+        [[params.skills.list.items]]
+        details = "Audio Precision/COMSOL"
+        [[params.skills.list.items]]
+        details = "Bidule/MaxMSP/Processing/PureData"
+        [[params.skills.list.items]]
+        details = "DSP/Crossover Networks/Transducer Design/MEMS"
+        [[params.skills.list.items]]
+        details = "Mixing/Mastering"
+        [[params.skills.list]]
+        title = "Machine Learning"
+        [[params.skills.list.items]]
+        details = "Weka/R/Spotify API"
+        [[params.skills.list]]
+        title = "Music Composition"
+        [[params.skills.list.items]]
+        details = "Guitar/Piano/Bass"
+        [[params.skills.list]]
+        title = "Music Production"
+        [[params.skills.list.items]]
+        details = "Logic Pro/Pro-Tools/Ableton Live"
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Fast learner"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "M.S. in Music & Technology"
+        university = "Carnegie Mellon University"
+        dates = "2016 - 2018"
+        [[params.education.list]]
+        degree = "B.S. Electrical Engineering"
+        university = "University of California, Irvine"
+        dates = "2007 - 2011"
+
+
+
+
+
+    # [params.awards]
+    #     enable = true
+
+    #     [[params.awards.list]]
+    #     name = "Award Lorem Ipsum"
+    #     body = "Microsoft lorem ipsum"
+    #     date = "2019"
+    #     [[params.awards.list]]
+    #     name = "Award Donec Sodales"
+    #     body = "Oracle Aenean"
+    #     date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Cooking"
+        [[params.interests.list]]
+        name = "Gaming"
+        [[params.interests.list]]
+        name = "Music Composition/Production"
+        [[params.interests.list]]
+        name = "Olympic Weight Lifting"
+        [[params.interests.list]]
+        name = "Reading"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I am a technically adept and creatively oriented individual; a trained engineer and practiced musician who is deeply driven to utilize my skills toward the betterment of society."
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Acoustic Engineer"
+        dates = "01/2020 - Present"
+        company = "Facebook Reality Labs"
+        details = "Worked as part of a small agile-run research team on cutting edge 3D Audio applications and innovative technologies."
+        [[params.experience.list.items]]
+        details = "Head-related transfer function research project."
+        [[params.experience.list.items]]
+        details = "Acoustic design and test."
+
+        [[params.experience.list]]
+        title = "Acoustic Engineer"
+        dates = "07/2019 - 08/2019"
+        company = "Princeton University - 3D3A Lab"
+        details = "Worked on two projects involving audio filter design for stereo image widening as well as assisted in the plasma physics laboratory."
+        [[params.experience.list.items]]
+        details = "Crosstalk cancellation filter implementation."
+        [[params.experience.list.items]]
+        details = "Plasma physics lab."
+        [[params.experience.list.items]]
+        details = "3D audio research."
+
+        [[params.experience.list]]
+        title = "Acoustic Engineer"
+        dates = "01/2018 - 07/2019"
+        company = "Facebook Reality Labs"
+        details = "Worked as part of a small agile-run research team on cutting edge 3D Audio applications and innovative technologies."
+        [[params.experience.list.items]]
+        details = "Soundfield Reconstruction research."
+        [[params.experience.list.items]]
+        details = "Transducer / Loudspeaker design."
+        [[params.experience.list.items]]
+        details = "Large-scale audio test development."
+
+        [[params.experience.list]]
+        title = "Audio Engineer"
+        dates = "08/01/2016 - 08/01/2018"
+        company = "Carnegie Mellon University"
+        details = "Setup, record, strike, mixing / mastering for live concerts / ensembles / small groups / private auditions throughout CMU theaters and off-site venues."
+        [[params.experience.list.items]]
+        details ="Microphone recording techniques."
+        [[params.experience.list.items]]
+        details ="Live mixing experience."
+
+        [[params.experience.list]]
+        title = "Summer Internship"
+        dates = "06/01/2017 - 08/01/2017"
+        company = "Oswald's Mill Audio"
+        details = "Worked closely with CEO to develop asset management system from scratch. Learned loudspeaker acoustic test principles as well as assembly from a production standpoint."
+        [[params.experience.list.items]]
+        details = "Loudspeaker / crossover network assembly and test."
+        [[params.experience.list.items]]
+        details = "Asset management system design."
+
+        [[params.experience.list]]
+        title = "Sales Engineer"
+        dates = "07/01/2013 - 07/01/2016"
+        company = "Rohde & Schwarz"
+        details = "Consulted on technical solutions for 5G and other leading-edge projects at Qualcomm, San Diego. Tailored test and measurement equipment to their requirements."
+        [[params.experience.list.items]]
+        details = "Developed new tools and automation methods to streamline the sales process."
+        [[params.experience.list.items]]
+        details = "Conducted demonstrations and presentations tailored to customer requirements."
+        [[params.experience.list.items]]
+        details = "In-depth knowledge of RF and other bench-top equipment including: radio base station emulators, signal generators, spectrum analyzers, oscilloscopes."
+
+        [[params.experience.list]]
+        title = "Hardware/Firmware Test Engineer"
+        dates = "07/01/2011 - 07/01/2013"
+        company = "Western Digital"
+        details = "Developed test plans and procedures per specifications of the branded product line (NAS, routers, WDTV). Brought up these products from initial design to final deployment."
+        [[params.experience.list.items]]
+        details = "Project management and test of all new online services on WDTV product line."
+        [[params.experience.list.items]]
+        details = "Test plan and automation development."
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Haptic Metronome"
+        meta = "Graduate Thesis @CMU"
+        tagline = "Designed a haptic metronome wearable device which sought to fill the space between the beat and provide a more meaningful gestural system than the typical audible metronome."
+
+        [[params.projects.list]]
+        title = "Design Engineer / CTO - MoodRing 2.0"
+        meta = "Startup"
+        tagline = "Designed a wearable device which allows touch selection of a color to represent mood paired with an app which enabled sharing of your current mood with a loved one to help spread emotional awareness."
+
+        [[params.projects.list]]
+        title = "Sound Design - Phipps Conservatory: Butterfly Lounge"
+        meta = "Experimental Sound Synthesis @CMU"
+        tagline = "Generated a dynamic sound environment via motion sensors for the Butterfly Lounge exhibit at Phipps Conservatory."
+
+        [[params.projects.list]]
+        title = "Founder - New Age Baby Monitor"
+        meta = "Senior Design Project @UCI"
+        tagline = "Designed a wearable baby monitor which monitored for risks of SIDS for my capstone project at UCI."
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "Borra, Federico, et al. 1ST-Order Microphone Array System for Large Area Sound Field Recording and Reconstruction: Discussion and Preliminary Results. 2019 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA). IEEE, 2019."
+
+        [[params.information.list]]
+        title = "Patents"
+        [[params.information.list.items]]
+        details = ""
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/nickpourazima"
+        title = "nickpourazima"
+        # [[params.social.list]]
+        # icon = "fab fa-linkedin"
+        # url = "//linkedin.com/in/username"
+        # title = "username"
+        # [[params.social.list]]
+        # icon = "fab fa-twitter-square"
+        # url = "//twitter.com/username"
+        # title = "@username"
+
+
+
+
+
+    [params.footer]
+        copyright = ""
