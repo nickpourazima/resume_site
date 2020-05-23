@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "www.pourazima.com/"
+baseURL = "www.pourazima.com"
 languageCode = "en"
 title = "Nick Pourazima's Website"
 theme = "hugo-devresume-theme"
