@@ -4,7 +4,7 @@ baseURL = "https://pourazima.com"
 languageCode = "en"
 title = "Nick Pourazima's Website"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-167493760-1"
 
 
 
@@ -200,7 +200,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Acoustic Engineer"
         dates = "01/2020 - Present"
-        company = "Facebook Reality Labs"
+        company = "[Facebook Reality Labs](https://www.facebook.com/careers/life/facebook-reality-labs-turning-ideas-into-realities)"
         details = "Worked as part of a small agile-run research team on cutting edge 3D Audio applications and innovative technologies."
         [[params.experience.list.items]]
         details = "Head-related transfer function research project."
@@ -210,7 +210,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Acoustic Engineer"
         dates = "07/2019 - 08/2019"
-        company = "Princeton University - 3D3A Lab"
+        company = "[Princeton University - 3D3A Lab](https://www.princeton.edu/3D3A/)"
         details = "Worked on two projects involving audio filter design for stereo image widening as well as assisted in the plasma physics laboratory."
         [[params.experience.list.items]]
         details = "Crosstalk cancellation filter implementation."
@@ -222,7 +222,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Acoustic Engineer"
         dates = "01/2018 - 07/2019"
-        company = "Facebook Reality Labs"
+        company = "[Facebook Reality Labs](https://www.facebook.com/careers/life/facebook-reality-labs-turning-ideas-into-realities)"
         details = "Worked as part of a small agile-run research team on cutting edge 3D Audio applications and innovative technologies."
         [[params.experience.list.items]]
         details = "Soundfield Reconstruction research."
@@ -234,7 +234,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Audio Engineer"
         dates = "08/01/2016 - 08/01/2018"
-        company = "Carnegie Mellon University"
+        company = "[Carnegie Mellon University](https://www.youtube.com/user/CarnegieMellonMusic)"
         details = "Setup, record, strike, mixing / mastering for live concerts / ensembles / small groups / private auditions throughout CMU theaters and off-site venues."
         [[params.experience.list.items]]
         details ="Microphone recording techniques."
@@ -244,7 +244,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Summer Internship"
         dates = "06/01/2017 - 08/01/2017"
-        company = "Oswald's Mill Audio"
+        company = "[Oswald's Mill Audio](https://oswaldsmillaudio.com)"
         details = "Worked closely with CEO to develop asset management system from scratch. Learned loudspeaker acoustic test principles as well as assembly from a production standpoint."
         [[params.experience.list.items]]
         details = "Loudspeaker / crossover network assembly and test."
@@ -254,7 +254,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Sales Engineer"
         dates = "07/01/2013 - 07/01/2016"
-        company = "Rohde & Schwarz"
+        company = "[Rohde & Schwarz](https://www.rohde-schwarz.com/us/home_48230.html)"
         details = "Consulted on technical solutions for 5G and other leading-edge projects at Qualcomm, San Diego. Tailored test and measurement equipment to their requirements."
         [[params.experience.list.items]]
         details = "Developed new tools and automation methods to streamline the sales process."
@@ -266,7 +266,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Hardware/Firmware Test Engineer"
         dates = "07/01/2011 - 07/01/2013"
-        company = "Western Digital"
+        company = "[Western Digital](https://www.westerndigital.com)"
         details = "Developed test plans and procedures per specifications of the branded product line (NAS, routers, WDTV). Brought up these products from initial design to final deployment."
         [[params.experience.list.items]]
         details = "Project management and test of all new online services on WDTV product line."
@@ -286,17 +286,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-        title = "Haptic Metronome"
+        title = "[Haptic Metronome](https://github.com/nickpourazima/he-sm)"
         meta = "Graduate Thesis @CMU"
         tagline = "Designed a haptic metronome wearable device which sought to fill the space between the beat and provide a more meaningful gestural system than the typical audible metronome."
 
         [[params.projects.list]]
-        title = "Design Engineer / CTO - MoodRing 2.0"
+        title = "[Design Engineer / CTO - MoodRing 2.0](https://youtu.be/POCaFBiBa0g)"
         meta = "Startup"
         tagline = "Designed a wearable device which allows touch selection of a color to represent mood paired with an app which enabled sharing of your current mood with a loved one to help spread emotional awareness."
 
         [[params.projects.list]]
-        title = "Sound Design - Phipps Conservatory: Butterfly Lounge"
+        title = "[Sound Design - Phipps Conservatory: Butterfly Lounge](https://jessestil.es/phipps)"
         meta = "Experimental Sound Synthesis @CMU"
         tagline = "Generated a dynamic sound environment via motion sensors for the Butterfly Lounge exhibit at Phipps Conservatory."
 
@@ -312,17 +312,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
         title = "Papers"
         [[params.information.list.items]]
-        details = "Borra, Federico, et al. 1ST-Order Microphone Array System for Large Area Sound Field Recording and Reconstruction: Discussion and Preliminary Results. 2019 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA). IEEE, 2019."
+        details = "Borra, Federico, et al. [1ST-Order Microphone Array System for Large Area Sound Field Recording and Reconstruction: Discussion and Preliminary Results](https://ieeexplore.ieee.org/document/8937281). 2019 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA). IEEE, 2019."
 
         [[params.information.list]]
         title = "Patents"
         [[params.information.list.items]]
         details = ""
-
-
-
-
-
 
 
     [params.social]
@@ -340,9 +335,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         # icon = "fab fa-twitter-square"
         # url = "//twitter.com/username"
         # title = "@username"
-
-
-
 
 
     [params.footer]
