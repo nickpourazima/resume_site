@@ -221,7 +221,7 @@ googleAnalytics = "UA-167493760-1"
 
         [[params.experience.list]]
         title = "Acoustic Engineer"
-        dates = "01/2018 - 07/2019"
+        dates = "09/2018 - 07/2019"
         company = "[Facebook Reality Labs](https://www.facebook.com/careers/life/facebook-reality-labs-turning-ideas-into-realities)"
         details = "Worked as part of a small agile-run research team on cutting edge 3D Audio applications and innovative technologies."
         [[params.experience.list.items]]
